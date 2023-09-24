@@ -6,5 +6,11 @@ public class Main {
         var cat = 3.6;
         var paper = 763789;
         System.out.println(dog + "\n" + cat + "\n" + paper);
+
+        dog += 4;
+        cat += 4;
+        paper += 4;
+        System.out.println(dog + "\n" + cat + "\n" + paper);
+
     }
 }
