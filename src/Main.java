@@ -22,5 +22,6 @@ public class Main {
         System.out.println(friend);
         friend /= 7;
         System.out.println(friend);
+
     }
 }
