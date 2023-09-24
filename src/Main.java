@@ -12,5 +12,10 @@ public class Main {
         paper += 4;
         System.out.println(dog + "\n" + cat + "\n" + paper);
 
+        dog -= 3.5;
+        cat -= 1.6;
+        paper -= 7639;
+        System.out.println(dog + "\n" + cat + "\n" + paper);
+
     }
 }
