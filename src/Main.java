@@ -44,5 +44,15 @@ public class Main {
         System.out.println("Вычитание из большей массы меньшей: " + y);
         y = boxer2 % boxer1;
         System.out.println("С помощь функции остаток от деления: " + y);
+
+        var workingHours = 640;
+        var workerHours = 8;
+        var totalWorkers = workingHours / workerHours;
+        System.out.println("Всего работников в компании — " + totalWorkers + " человек");
+        totalWorkers += 90;
+        workingHours = totalWorkers * workerHours;
+        System.out.println("«Если в компании работает " + totalWorkers + " человек, то всего " +
+                workingHours + " часов работы может быть поделено между сотрудниками»");
+
     }
 }
