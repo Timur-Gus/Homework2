@@ -40,5 +40,9 @@ public class Main {
         var y = boxer2 - boxer1;
         System.out.println("Разница между массами бойцов: " + y);
 
+        y = boxer2 - boxer1;
+        System.out.println("Вычитание из большей массы меньшей: " + y);
+        y = boxer2 % boxer1;
+        System.out.println("С помощь функции остаток от деления: " + y);
     }
 }
